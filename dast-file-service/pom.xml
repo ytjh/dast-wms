@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>dast-recall</artifactId>
+    <artifactId>dast-file-service</artifactId>
 
     <properties>
         <java.version>1.8</java.version>
@@ -22,12 +22,24 @@
 
     <dependencies>
         <dependency>
-            <groupId>top.dast.framework</groupId>
-            <artifactId>dast-remoting-nacos</artifactId>
+            <groupId>com.dast.file</groupId>
+            <artifactId>dast-file-client</artifactId>
         </dependency>
         <dependency>
             <groupId>com.dast.file</groupId>
-            <artifactId>dast-file-client</artifactId>
+            <artifactId>dast-file-dsl</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.dast.file</groupId>
+            <artifactId>dast-file-common</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>top.dast.framework</groupId>
+            <artifactId>dast-framework-auth</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>top.dast.framework</groupId>
+            <artifactId>dast-framework-datasource</artifactId>
         </dependency>
     </dependencies>
 </project>

@@ -9,8 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>dast-recall</artifactId>
-
+    <artifactId>dast-file-common</artifactId>
     <properties>
         <java.version>1.8</java.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -23,11 +22,13 @@
     <dependencies>
         <dependency>
             <groupId>top.dast.framework</groupId>
-            <artifactId>dast-remoting-nacos</artifactId>
+            <artifactId>dast-framework-core</artifactId>
         </dependency>
         <dependency>
-            <groupId>com.dast.file</groupId>
-            <artifactId>dast-file-client</artifactId>
+            <groupId>io.minio</groupId>
+            <artifactId>minio</artifactId>
         </dependency>
     </dependencies>
+
+
 </project>
