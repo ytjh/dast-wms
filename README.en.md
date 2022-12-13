@@ -1,7 +1,7 @@
-# dast-file
+# dast-wms
 
 #### Description
-file 文件系统
+wms 仓储系统
 
 #### Software Architecture
 Software architecture description

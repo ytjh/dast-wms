@@ -1,7 +1,7 @@
-# dast-file
+# dast-wms
 
 #### 介绍
-file 文件系统
+wms 仓储系统
 
 #### 软件架构
 软件架构说明

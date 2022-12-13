@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>dast-recall</artifactId>
+    <artifactId>dast-wms-web</artifactId>
 
     <properties>
         <java.version>1.8</java.version>
@@ -23,11 +23,21 @@
     <dependencies>
         <dependency>
             <groupId>top.dast.framework</groupId>
+            <artifactId>dast-stater-boot</artifactId>
+            <version>${dast.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>top.dast.framework</groupId>
             <artifactId>dast-remoting-nacos</artifactId>
         </dependency>
         <dependency>
             <groupId>com.dast.wms</groupId>
-            <artifactId>dast-wms-client</artifactId>
+            <artifactId>dast-wms-service</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>top.dast.framework</groupId>
+            <artifactId>dast-framework-biz</artifactId>
         </dependency>
     </dependencies>
+
 </project>
