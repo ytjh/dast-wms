@@ -1,6 +1,5 @@
 package com.dast.wms;
 
-import org.apache.dubbo.config.annotation.DubboService;
 import top.dast.ro.DastResult;
 
 /**
@@ -10,7 +9,7 @@ import top.dast.ro.DastResult;
  * @description: TODO
  * @date 2022/5/2511:22
  */
-@DubboService(version = "1.0.0", protocol = {"dubbo"})
+//@DubboService(version = "1.0.0", protocol = {"dubbo"})
 public class IDemoRpcServiceImpl implements IDemoRpcService {
 
     @Override
